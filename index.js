@@ -30,6 +30,7 @@ resetTimer = () => {
   clearInterval(interval);
   timeLeft = 1500;
   updateTime();
+  interval=undefined;
 };
 
 startButton.addEventListener("click", () => {
